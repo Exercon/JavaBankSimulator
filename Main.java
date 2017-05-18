@@ -8,7 +8,7 @@ package com.company;
 
           Scanner getInput = new Scanner(System.in);
           System.out.println("________________________________________________");
-          //Name Input - Isim girisi aldik
+          //Name Input 
           System.out.println("Enter the name of the customer :");
           String name = getInput.nextLine();
           name = name.replaceAll("\\s","");
